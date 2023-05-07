@@ -35,15 +35,20 @@ h1.time {
 #crypto {
   font-size: 2rem;
   margin: 0.7em;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
 }
 
 #crypto > p {
   margin: 0;
+  padding: 0.25em;
 }
 
 #crypto-top {
   display: flex;
   align-items: center;
+  align-self: first baseline;
   margin-bottom: 5px;
 }
 
